@@ -13,7 +13,6 @@ class LRUCache:
         self.size = size
         self.cache = OrderedDict()
 
-    #assumption: key and value are both integer
     def put(self, key: int, value: int) -> None:
         """
         :type key: int
