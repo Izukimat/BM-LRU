@@ -11,4 +11,4 @@ def test_put_02():
     cache.put(3, 50)
     cache.put(4, 90)
     cache.put(6, 25)
-    assert cache.get(1) == None
+    assert cache.get(1) == -1
